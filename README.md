@@ -9,17 +9,15 @@ Insert gif or link to demo
 
 First create a basic class:
 
-step1.png
-
-![Alt text](relative%20path/to/step1.png?raw=true "Title")
+![Alt text](https://github.com/Luacat5/super-module/blob/master/tutorial%20screenshots/step%201.png)
 
 next use the Super.init method:
 
-![Alt text](relative%20path/to/step2.png?raw=true "Title")
+![Alt text](https://github.com/Luacat5/super-module/blob/master/tutorial%20screenshots/step%202.png)
 
 then finally use the Super.new method to create a class with all the variables in the super class, and all the methods in our inheriting class.
 
-![Alt text](relative%20path/to/step3.png?raw=true "Title")
+![Alt text](https://github.com/Luacat5/super-module/blob/master/tutorial%20screenshots/step%203.png)
 
 Done!
 ## API Reference
@@ -40,3 +38,4 @@ to create a new instance of class with inherited variables from superClass.
 
 #### Super(class, method)(variables, ... )
 calls the method from the superClass given the variables.
+![Alt text] (https://github.com/Luacat5/super-module/blob/master/tutorial%20screenshots/super%20call.png)
