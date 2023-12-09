@@ -1,11 +1,10 @@
 local class = require("class")
-local def = {}
+local module = {}
 
-function def:getFunny()
+function module:getFunny()
     return self.funny
 end
 
-
-return class(def){
+return class(module){
     funny = true
 }
