@@ -50,11 +50,11 @@ local class = function(methods, ... )
 
 		actual._variables = combineVariables(variables,actual._super)
 
-		actual.new = function ()
+		actual.new = function (...)
 			local object = instanceClass(actual._variables,actual._methods)
 			
 			if constructor then
-				constructor(object)
+				constructor(object, ...)
 			end
 			
 			return object
